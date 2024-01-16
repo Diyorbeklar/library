@@ -1,0 +1,13 @@
+package com.example.kutubxona.library.service;
+
+import com.example.kutubxona.library.model.Category;
+
+import java.util.List;
+
+public interface categoryserver {
+    public List<Category> getListCategory();
+    public Category getCategoryById(Integer id);
+    void updateCategory(Integer id, Category category);
+    void createCategory(Category category);
+    void deleteCategory(Integer id);
+}

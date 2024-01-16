@@ -1,0 +1,5 @@
+DROP TABLE if EXISTS category;
+CREATE TABLE category(
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name varchar
+)
